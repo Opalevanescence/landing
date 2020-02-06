@@ -1,0 +1,65 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/*CSS Components*/
+@import url('components/card.css');
+@import url('components/banner.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+  margin: 5px;
+}
+
+p {
+  margin: 5px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* Custom design below! */
+.display {
+  background-image: linear-gradient(to bottom, rgba(11,10,15,1) 0%, rgba(4,4,6,1) 6%, rgba(4,4,6,0) 23%), url('../images/background_2_trees.jpg');
+/*linear-gradient(to bottom, rgba(11,10,15,1) 0%,rgba(4,4,6,1) 72%, rgba(4,4,6,0) 100%)*/
+  background-size: cover;
+  padding-top: 32px;
+  color: #FFFCF4;
+}
+
+.display h2 {
+  margin: 56px 64px;
+}
+
+.space {
+  height: 350px;
+}
+
+.footer {
+  padding: 30px;
+  background-color: rgba(14, 12, 16, 0.5);
+  text-align: center;
+}
+
+.footer ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.footer li {
+  padding: 10px;
+  display: inline-block;
+  font-size: 30px;
+}

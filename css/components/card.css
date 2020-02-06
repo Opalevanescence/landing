@@ -1,0 +1,35 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+}
+
+.card {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 16px;
+  text-align: center;
+  background-color: rgba(124, 105, 93,0.5);
+}
+
+.card img {
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin: 16px;
+  height: 238px;
+  width: 238px;
+}
+
+.card a {
+  color: black;
+}
+
+.card a:hover {
+  color: rgb(45, 19, 0);
+}
+
+.price {
+  text-align: right;
+  color: black;
+}

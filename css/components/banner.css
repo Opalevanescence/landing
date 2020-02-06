@@ -1,0 +1,11 @@
+.banner {
+  background-image: url(../../images/background_1_sky.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 80px;
+  height: 540px;
+  display: flex;
+  color: #FFFCF4;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
